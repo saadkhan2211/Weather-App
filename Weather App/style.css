@@ -1,0 +1,42 @@
+
+.weather-container{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+
+.weather-card{
+    background: linear-gradient(#3498DB,#5DADE2);
+    width: 400px;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.col{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: medium;
+}
+.col img{
+    width: 45px;
+    margin-right: 10px;
+}
+
+.humidity{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.wind{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
